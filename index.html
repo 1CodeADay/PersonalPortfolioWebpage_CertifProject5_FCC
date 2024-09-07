@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <ul>
+      <li><a href="#welcome-section">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#blog">Blog</a></li>
+      <li><a href="#testimonials">Testimonials</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <header id="welcome-section">
+    <h1>Welcome to My Portfolio</h1>
+    <p>Hi, I'm <strong>Rodrigue Danso</strong>, a passionate English teacher and web developer.</p>
+    <a id="profile-link" href="https://github.com/1CodeADay" target="_blank">My GitHub</a>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a web developer with a knack for creating visually appealing and functional websites. With experience in front-end and back-end technologies, I strive to deliver high-quality web solutions.</p>
+    <img src="https://avatars.githubusercontent.com/u/138817850?v=4" alt="Profile Picture">
+    <p>In my free time, I enjoy playing guitar and rollerblading.</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-container">
+      <div class="project-tile">
+        <img src="https://ca-times.brightspotcdn.com/dims4/default/11a85a7/2147483647/strip/false/crop/2048x1365+0+0/resize/1486x990!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fb8%2Fcf%2F6cb1a29f38d26bad2f5c854a24bf%2Fla-et-cm-mark-rothko-painting-sothebys-auction-001" alt="Project One Rothko Painting">
+        <h3>Rothko Painting</h3>
+        <p>This is a brief description of Project One. It includes CSS and the Box Model features.</p>
+        <a href="https://github.com/1CodeADay/RothkoPainting-CSS_Box_model-FCC" target="_blank">View Project on GitHub</a>
+      </div>
+      <div class="project-tile">
+        <img src="https://user-images.githubusercontent.com/78083890/180658499-28c734b3-3c68-49bf-ba08-0cd02395fe58.png" alt="Project Two City Skyline">
+        <h3> City Skyline</h3>
+        <p>This is a brief description of Project Two. This project focuses CSS variables, radial and repeating gradients.</p>
+        <a href="https://github.com/1CodeADay/CSS-Variables_CitySkyline_FCC" target="_blank">View Project on GitHub</a>
+      </div>
+      <div class="project-tile">
+        <img src="https://shots.codepen.io/username/pen/xxJYRZz-1280.jpg?version=1674408495" alt="Project Three Building a Penguin">
+        <h3>Building a Penguin</h3>
+        <p>This is a brief description of Project Three. It showcases a complex penguin with flapping wings in front two mountains.</p>
+        <a href="https://example.com" target="_blank">View Project on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <article>
+      <h3>Understanding Modern Web Development</h3>
+      <p>Web development has evolved significantly over the years. In this post, I discuss the latest trends and technologies that are shaping the future of web development.</p>
+      <a href="https://example.com" target="_blank">Read More</a>
+    </article>
+    <article>
+      <h3>How to Create a Responsive Design</h3>
+      <p>Responsive design is crucial for modern web development. This blog post covers the basics of creating responsive designs that work across various devices and screen sizes.</p>
+      <a href="https://example.com" target="_blank">Read More</a>
+    </article>
+    <article>
+      <h3>Top 5 JavaScript Frameworks in 2024</h3>
+      <p>JavaScript frameworks continue to evolve. In this article, I review the top five frameworks you should consider for your next project in 2024.</p>
+      <a href="https://example.com" target="_blank">Read More</a>
+    </article>
+  </section>
+
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonial">
+      <p>"Rodrigue did an outstanding job on our website. His attention to detail and creative approach truly made a difference."</p>
+      <cite>- Omar, Le Wagon</cite>
+    </div>
+    <div class="testimonial">
+      <p>"Working with Rodrigue was a pleasure. He delivered the project on time and exceeded our expectations."</p>
+      <cite>- Zakaria, Freelancer</cite>
+    </div>
+    <div class="testimonial">
+      <p>"I highly recommend Rodrigue for any web development needs. His skills and professionalism are top-notch."</p>
+      <cite>- Anas, Le Wagon Alumni</cite>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>If you would like to get in touch, please feel free to send me a message!</p>
+    <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="subject">Subject:</label>
+      <input type="text" id="subject" name="subject" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+</body>
+</html>
